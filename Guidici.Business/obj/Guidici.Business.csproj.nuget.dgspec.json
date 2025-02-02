@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Business\\Guidici.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Business\\Guidici.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Business\\Guidici.Business.csproj",
+        "projectName": "Guidici.Business",
+        "projectPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Business\\Guidici.Business.csproj",
+        "packagesPath": "C:\\Users\\cordua francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cordua francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Repository\\Guidici.Repository.csproj": {
+                "projectPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Repository\\Guidici.Repository.csproj"
+              },
+              "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj": {
+                "projectPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "UniprUtility.Kafka": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Repository\\Guidici.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Repository\\Guidici.Repository.csproj",
+        "projectName": "Guidici.Repository",
+        "projectPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Repository\\Guidici.Repository.csproj",
+        "packagesPath": "C:\\Users\\cordua francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cordua francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj": {
+                "projectPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj": {
+      "version": "4.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj",
+        "projectName": "Guidici.Shared",
+        "projectPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\Guidici.Shared.csproj",
+        "packagesPath": "C:\\Users\\cordua francesco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cordua francesco\\OneDrive - Università degli Studi di Parma\\Desktop\\MICRO\\microservizi\\guidici\\Guidici\\Guidici.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cordua francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
